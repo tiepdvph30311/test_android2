@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/id_phieumuon"
+            android:icon="@drawable/phieumuon"
+            android:title="Quản Lý Phiếu Mượn"/>
+        <item android:id="@+id/id_loaisach"
+            android:icon="@drawable/loaisach"
+            android:title="Quản Lý Loại Sách"/>
+        <item android:id="@+id/id_sach"
+            android:icon="@drawable/sach"
+            android:title="Quản Lý Sách"/>
+        <item android:id="@+id/id_thanhvien"
+            android:icon="@drawable/thanhvien"
+            android:title="Quản Lý Thành viên"/>
+        <item android:title="Thống kê">
+            <menu>
+                <item android:id="@+id/id_top"
+                    android:icon="@drawable/top"
+                    android:title="Top 10"/>
+                <item android:id="@+id/id_thongke"
+                    android:icon="@drawable/phieumuon"
+                    android:title="Thống kê"/>
+            </menu>
+        </item>
+        <item android:title="Nguời Dùng">
+            <menu>
+                <item android:id="@+id/id_adduser"
+                    android:icon="@drawable/user"
+                    android:title="Thêm Thành viên"/>
+                <item android:id="@+id/id_pass"
+                    android:icon="@drawable/key"
+                    android:title="Đổi Mật Khẩu"/>
+                <item android:id="@+id/id_exit"
+                    android:icon="@drawable/exit"
+                    android:title="Đăng Xuất"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
